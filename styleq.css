@@ -1,0 +1,16 @@
+.nav-link{
+    color: black!important; 
+    font-weight: 600;
+}
+.one{
+    color: white!important;
+}
+input{
+    border-radius: 20px!important;
+    background-color: lightgray!important;
+    font-weight: 500!important;
+}
+.nav-link:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}

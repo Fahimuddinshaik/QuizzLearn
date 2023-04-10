@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+    .sha{
+        box-shadow: 2px 2px 10px lightgrey, -2px 2px 2px lightgrey,-2px -2px 2px lightgrey, 2px -2px 2px lightgrey;
+        padding: 20px;
+    }
+    input{
+        border-radius: 20px!important;
+        text-align: center;
+        padding: 3px;
+        margin: 20px 0px;
+        font-weight: 500!important;
+    }
+    button{
+        font-weight: 500!important;
+        float: right;
+        margin-right: 10px;
+        padding: 8px 30px!important;
+        margin-bottom: 30px;
+    }
+    form{
+        margin: 30px;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;margin-top: 20px; color:darkviolet;">QuizzLearn Question_Maker Login Form</h1>
+        <div class="row my-4 shadow">
+
+            <div class="col-md-5 sha my-3" style="background-color:darkviolet; border-radius: 10px; margin-left: 40px;">
+                <form action="" method="post">
+                    <h2 style="text-align: center;margin: 20px 0px; margin-bottom: 50px;">Sign in</h2>
+                    <input type="text" name="username" class="form-control" placeholder="Username" required>
+                    <input type="password" name="password" class="form-control" placeholder="Password" required>
+                    <button class="btn btn-warning">Login</button>
+
+                    <p style="color:white; font-weight: 400; margin-top: 90px;">If you don't have any Account ?
+                        <a href="registration.html">
+                            <button class="btn btn-success" style="float: left; margin-top: 10px;">Sign-Up Here</button>
+                        </a>
+                    </p>
+                </form>
+            </div>
+
+
+            <div class="col-md-6" style="margin-left: 50px;">
+                <img src="login_image.jpg" width="500" style="margin-top: 50px;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
